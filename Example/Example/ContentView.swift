@@ -14,7 +14,7 @@ struct ContentView : View {
         NavigationView {
             List {
                 Section(header: Text("Animation")) {
-                    NavigationLink(destination: LotteryView()) {
+                    NavigationLink(destination: TestBindView()) {
                         PageRow(title: "LotteryView", subTitle: "Rotation Lottery")
                     }
                 }
